@@ -225,6 +225,7 @@ class SelectInput extends Component {
                     disabled && this.styles.valueDisabled,
                     valueStyle
                 ]}
+                numberOfLines={1}
             >
                 {this.getValue()}
             </Text>
